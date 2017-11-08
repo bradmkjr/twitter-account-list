@@ -1,6 +1,6 @@
 {
-  "name": "twitter-account-list",
-  "version": "1.0.0",
+  "name": "twittercp",
+  "version": "2.0.0",
   "description": "Master Whitelist and Blacklist for Twitter Accounts",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bradmkjr/twitter-account-list.git"
+    "url": "git+https://github.com/bradmkjr/twittercp.git"
   },
   "author": "Bradford Knowlton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bradmkjr/twitter-account-list/issues"
+    "url": "https://github.com/bradmkjr/twittercp/issues"
   },
-  "homepage": "https://github.com/bradmkjr/twitter-account-list#readme",
+  "homepage": "https://github.com/bradmkjr/twittercp#readme",
   "dependencies": {
     "pg": "7.4.0"
   }
