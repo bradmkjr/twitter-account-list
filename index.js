@@ -1,4 +1,4 @@
-const { Client } = require('pg');
+// const { Client } = require('pg');
 
 // const client = new Client({
 //   connectionString: process.env.DATABASE_URL,
@@ -14,4 +14,14 @@ const { Client } = require('pg');
 //   }
 //   client.end();
 // });
+
+// require("babel-core").transform("code", options);
+
+var React = require('react');
+var ReactDOM = require ('react-dom');
+
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
 

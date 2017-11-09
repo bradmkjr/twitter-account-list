@@ -4,7 +4,10 @@
   "description": "Master Whitelist and Blacklist for Twitter Accounts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,12 @@
   },
   "homepage": "https://github.com/bradmkjr/twittercp#readme",
   "dependencies": {
-    "pg": "7.4.0"
+    "pg": "7.4.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "^1.0.17"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
